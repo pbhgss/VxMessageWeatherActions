@@ -51,9 +51,9 @@ import java.util.List;
  * story 小说
  */
 public class AllConfig {
-    public static final String VxAppId = "微信的APPID";
-    public static final String VxAppSecret = "微信的密钥";
-    public static final String WeatherKey = "高德地图key";
+    public static final String VxAppId = "wxaed628cd782719ff";
+    public static final String VxAppSecret = "a19f0871c72803ee2e231deb80159d3a";
+    public static final String WeatherKey = "30fdfb45ac1aa5cf0130436e34984c38";
 
     //基本类型消息
     public static final boolean open_info = true; //是否开启个人情况 true 为开启， false 为不开启
@@ -85,24 +85,24 @@ public class AllConfig {
     private static void init(){
         //如果要多个人的话，就复制这个一遍，然后填写里面的内容。这里默认两个人,大伙应该是两个人吧（笑）
         userList.add(getUser(
-                "这个人扫码后的微信号",//扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "这个人的称呼",//咋称呼这个人
-                new BirthDay(1999,8,11,false),  //这个人的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
-                new BirthDay(1999,2,15,true), //这个人对象的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
-                LocalDate.of(2020,7,8),//这个人的纪念日起点，比如说在一起的那一天
-                "江苏省南京市玄武区",//这个人的详细地址
-                "南京",//这个人在的城市
-                "微信消息模板ID"));//要给这个人发送的模板ID
+                "oymnm5sFCTmztTFz3-8uJMvpdzk8",//扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "珊珊老婆",//咋称呼这个人
+                new BirthDay(2004,9,3,false),  //这个人的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
+                new BirthDay(2003,6,15,true), //这个人对象的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
+                LocalDate.of(2021,3,13),//这个人的纪念日起点，比如说在一起的那一天
+                "四川省绵阳市涪城区",//这个人的详细地址
+                "绵阳",//这个人在的城市
+                "kvSEn_2fLMJ5Ah3Lhjyh34LLX9Z4af2JzoSWkc6NlxY"));//要给这个人发送的模板ID
 
         userList.add(getUser(
-                "这个人扫码后的微信号",
-                "这个人的名字",
-                new BirthDay(1999,2,15,true),  //这个人的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
-                new BirthDay(1999,8,11,false), //这个人对象的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
-                LocalDate.of(2020,7,8),//这个人的纪念日
-                "江苏省南京市玄武区",//这个人的详细地址
-                "南京",//这个人在的城市
-                "微信消息模板ID"));//要给这个人发送的模板ID
+                "oymnm5tgmvw3I9mSitEO6sHEgsXY",
+                "彭博辉",
+                new BirthDay(2003,6,15,true),  //这个人的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
+                new BirthDay(2004,9,3,false), //这个人对象的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
+                LocalDate.of(2021,3,13),//这个人的纪念日
+                "四川省绵阳市涪城区",//这个人的详细地址
+                "绵阳",//这个人在的城市
+                "kvSEn_2fLMJ5Ah3Lhjyh34LLX9Z4af2JzoSWkc6NlxY"));//要给这个人发送的模板ID
 
         
     }
